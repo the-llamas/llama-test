@@ -1,0 +1,13 @@
+{{#each books as |book|}}
+  <!-- log book -->
+  <div data-id="{{book.id}}">
+    <div>
+      <h3>
+        {{book.id}}
+        <br />
+        {{limit book.name 15}}
+      </h3>
+      <p>
+    </div>
+  </div>
+{{/each}}
